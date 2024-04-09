@@ -15,7 +15,7 @@ var transport = nodemailer.createTransport({
 });
 
 const message = {
-  from: 'onlineSudeep',
+  from: '<onlineSudeep>',
   to: 'sudeeponlie@gmail.com',
   subject: 'How are you',
   text: 'Testing purpose',
